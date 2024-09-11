@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/login_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/dp"
+        android:importantForAccessibility="no"
+        android:padding="20dp"
+        tools:ignore="ImageContrastCheck"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="25sp"
+        android:autofillHints="username"
+        android:hint="@string/user_name"
+        android:inputType="none"
+        android:textColorHint="#A1887F"
+        android:textSize="20sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/passwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="25sp"
+        android:autofillHints="password"
+        android:hint="@string/password"
+        android:inputType="none"
+        android:textColorHint="#A1887F"
+        android:textSize="20sp"
+        tools:ignore="VisualLintTextFieldSize" />
+    <Button
+        android:id="@+id/login_sub_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

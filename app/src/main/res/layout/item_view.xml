@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#3201FADC">
+
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amazon"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/item_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="https://www.amazon.com"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12/12/2023 12:12:12"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/item_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="192.168.0.1"
+        android:textAlignment="center"
+        android:paddingStart="8dp"/>
+
+    <TextView
+        android:id="@+id/item_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active"
+        android:gravity="center" />
+    <ToggleButton
+        android:id="@+id/item_btn"
+        android:textOff="Deactivated"
+        android:textOn="Activated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

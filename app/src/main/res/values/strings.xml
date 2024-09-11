@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">FUS</string>
+    <string name="dp" translatable="false">\nDP</string>
+    <string name="user_name" translatable="false">User Name</string>
+    <string name="password" translatable="false">Password\n</string>
+    <string name="submit" translatable="false">Submit\n</string>
+    <string name="login">Login</string>
+    <string name="scan">Scan</string>
+</resources>
